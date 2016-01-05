@@ -11,7 +11,7 @@ gat.API_KEY = 'YOUR API KEY HERE'
 var D 		= [[0,''],[0,''],[0,''],[0,''],[0,''],[0,''],[0,'']]; // hold the data
 var loop_ctr= 0;
 
-var an = new b2c.sensor('an','BB_ANALOG',166);
+var an = new b2c.sensor('an','BB_ANALOG',166); // create a new sensor called 'an' of type 'BB_ANALOG'
 an.AddChannel('analog0',14,'N');
 an.AddChannel('analog2',9,'N');
 an.AddChannel('analog1',9,'N');
