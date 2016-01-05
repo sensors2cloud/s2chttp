@@ -8,4 +8,4 @@ Step 1. SSH to your beaglebone <br>
 Step 2. Install s2chttp library<br> 
 npm install s2chttp <br>
 Step 3. cd to /var/lib/cloud9  <br>
-Step 4. copy client.js from github <br>
+Step 4. copy s2c_io_client.js from examples <br>
