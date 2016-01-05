@@ -252,27 +252,7 @@ function getIPAddress()
   }
   return '0.0.0.0';
 } 
-function HTTPSPOST(data,macaddr,post_callback)
-	{
-		var http = require("https");
-		var options = 
-		{
-			hostname: 'm2m2cloud.appspot.com',
-			port: 443,
-			path: '/post',
-			method: 'POST',
-			headers: {'Content-Type': 'application/json','Content-Length': data.length,'macaddr':macaddr,'securekey':'1AB!456'}
-		};
-		var req = http.request(options, function(res)
-			{
-				res.setEncoding('utf8');  
-				res.on('data', function (body) { post_callback(body); }); 
-			});
-		req.on('error', function(e)            { post_callback(e.message); });
-		// write data to request body
-		req.write(data);
-		req.end();
-	}
+
 function POST(data,macaddr,API_KEY,post_callback)
 	{
 		var http = require("http");
