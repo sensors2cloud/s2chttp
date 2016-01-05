@@ -17,7 +17,7 @@ Using this Library and the attached client allow you to leverage the power of th
       replace the API_KEY with the API KEY of your beaglebone
       click Esc
       type wq! then ENTER
-      #####<note/>: Get API_KEY from s2c.io device manager > Edit Config > SecureKey
+      **Note**: Get API_KEY from s2c.io device manager > Edit Config > SecureKey
 
 ###Step 5. Run the client
     node s2c_io_client.js
