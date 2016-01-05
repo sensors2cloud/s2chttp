@@ -6,6 +6,6 @@ Using this Library and the attached client allow you to leverage the power of th
 
 #Step 1. SSH to your beaglebone 
 #Step 2. Install s2chttp library 
-#npm install s2chttp 
+npm install s2chttp <br>
 #Step 3. cd to /var/lib/cloud9  
 #Step 4. copy client.js from github 
