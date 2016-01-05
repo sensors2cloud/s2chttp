@@ -14,7 +14,8 @@ Using this Library and the attached client allow you to leverage the power of th
     vi s2c_io_client.js
     click insert
     navigate to gat.API_KEY = 'YOUR API KEY HERE'
-    replace the API_KEY with the API KEY of your beaglebone obtained from s2c.io device manager > Edit Config > SecureKey
+    replace the API_KEY with the API KEY of your beaglebone 
+    <note>: Get API_KEY from s2c.io device manager > Edit Config > SecureKey
     click Esc
     type wq! then ENTER
 ###Step 5. Run the client
